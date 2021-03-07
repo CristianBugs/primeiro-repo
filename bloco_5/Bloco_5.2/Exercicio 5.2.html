@@ -71,7 +71,7 @@
       firstTask.innerHTML = "Exercício 5.2 - JavaScript DOM";
 
       let SecTask = document.createElement("div");
-      SecTask.className = ".main-content"
+      SecTask.className = "main-content"
       document.body.appendChild(SecTask);
 
       let thirdTask = document.createElement("div");
@@ -83,12 +83,14 @@
       thirdTask.appendChild(fourthTask);
 
       let fifthTask = document.createElement("div");
-      fifthTask.className = ".left-content";
+      fifthTask.className = "left-content";
       SecTask.appendChild(fifthTask);
 
+      let sixthTask = document.createElement("div");
+      sixthTask.className = "right-content";
+      SecTask.appendChild(sixthTask);
+
     
-
-
     </script>
   </body>
 </html>
