@@ -66,7 +66,25 @@
     Adicione uma lista não ordenada com os valores de 1 a 10 por extenso como valores da lista. Essa lista deve ser filha do div criado no passo 6;
     Adicione 3 tags h3 , todas sendo filhas do div criado no passo 2. -->
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+      let firstTask = document.createElement("h1");
+      document.body.appendChild(firstTask);
+      firstTask.innerHTML = "Exercício 5.2 - JavaScript DOM";
+
+      let SecTask = document.createElement("div");
+      SecTask.className = ".main-content"
+      document.body.appendChild(SecTask);
+
+      let thirdTask = document.createElement("div");
+      thirdTask.className = "center-content";
+      SecTask.appendChild(thirdTask);
+
+      let fourthTask = document.createElement("p");
+      fourthTask.innerText = "Olá, pessoal"
+      thirdTask.appendChild(fourthTask);
+
+    
+
+
     </script>
   </body>
 </html>
