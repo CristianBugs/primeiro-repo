@@ -94,8 +94,16 @@
       seventhTask.className = "small-image";
       seventhTask.src = "https://picsum.photos/200";
       fifthTask.appendChild(seventhTask);
-      
-    
+
+      let eighthTask = document.createElement("ul");
+      sixthTask.appendChild(eighthTask)
+      let array = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"];
+      for (let number in array) {
+          let list = document.createElement("li");
+          list.innerHTML = array[number];
+          eighthTask.appendChild(list);
+      }
+          
     </script>
   </body>
 </html>
